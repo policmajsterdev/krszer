@@ -1,0 +1,204 @@
+
+{% load static %}
+<html lang="en">
+<head>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: monospace;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        width: 100%;
+        background: #0e0e0e;
+    }
+
+    .numbers {
+        position: relative;
+        cursor: default;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .numbers span {
+        position: relative;
+        font-size: 3em;
+        font-weight: 900;
+        color: rgba(255,255,255, 0.01);
+        line-height: 0.9em;
+        transition: 1s;
+        user-select: none;
+    }
+
+    .numbers span:hover {
+        transition: 0s;
+        color: #d5a40b;
+        text-shadow: 0 0 10px #d5a40b,
+        0 0 20px #d5a40b,
+        0 0 40px #d5a40b,
+        0 0 80px #d5a40b,
+        0 0 160px #d5a40b,
+        z-index: 1000;
+
+    }
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <section>
+        <p class="numbers">38TftW1heYPqvKbiAhT4ttNBqkUPpooXad
+            49HqitRzdnhYjgTEAhgGpCfsjdTeMbUTU6cyR4JV1R7k2Eej9rGT8JpFiYDa4tZM6RZiFrHmMzgSrhHEqpDYKBe5B2ufNsL
+            1LpYKb3SXZPve9hsH2QEJZFX279wJVGowi
+            0x3AD9dB589d201A710Ed237c829c7860Ba86510Fc
+            0x931546D9e66836AbF687d2bc64B30407bAc8C568
+            3K4rjdh8A5yi6LWvft2rbmyZvqEbPSSSX4
+            0x5f48c2a71b2cc96e3f0ccae4e39318ff0dc375b2
+            3F6bbvS1krsc1qR8FsbTDfYQyvkMm
+            1PhqQpaGCrqSxQ6QDXcv14QCd1U98Zp34E
+            15YK647qtoZQDzNrvY6HJL6QwXduLHfT28
+            0x3cbded43efdaf0fc77b9c55f6fc9988fcc9b757d
+            bc1qkfqh5p2qsakseg5gnwen6zh5xf3elmku2xaup29mw3l0wnncy3es880dss
+            1AeSq93WDNjdh8A5yi6LWvft2rbmyZvqEbPSSSX4
+            0x5f48c2a71b2cc96e3f0ccae4e39318ff0dc375b2
+            3F6bbvS1krsc1qR8FsbTDfYQyvkMm
+            1PhqQpaGCrqSxQ6QDXcv14QCd1U98Zp34E
+            15YK647qtoZQDzNrvY6HJL6QwXduLHfT28
+            0x3cbded43efdaf0fc77b9c55f6fc9988fcc9b757d
+            bc1qkfqh5p2qsakseg5gnwen6zh5xf3elmku2xaup29mw3l0wnncy3es880dss
+            1AeSq93WDNdLoEJ92sex7T8xQZoYYm8BtS
+            3NU9zkD8CCVGVmYnNNSN7PbU9sSFQBm5UV
+            12w6v1qAaBc4W8h8C2Cu5SKFaKDSv3erUW
+            3JHMz3mTna1gVCZSPp8NgRFiY7phkv5mA8
+            1H939dom7i4WDLCKyGbXUp3fs9CSTNRzgL
+            bc1qv7k70u2zynvem59u88ctdlaw7hc735d8xep9rq
+            18Qj1THHuETfYhuRDZycXJbWwDMGw73Poa
+            35QpLWYkvD3ALhjbge5bK2kd7HfHYcDMu3
+            1MnbhWe5wr7Ut45ReyQsm96PwnM9jD7KaH
+            1Edue8XZCWNoDBNZgnQkCCivDyr9GEo4x6
+            TXEsK1sEsKjZ1xtHitnyAjdh8A5yi6LWvft2rbmyZvqEbPSSSX4
+            0x5f48c2a71b2cc96e3f0ccae4e39318ff0dc375b2
+            3F6bbvS1krsc1qR8FsbTDfYQyvkMm
+            1PhqQpaGCrqSxQ6QDXcv14QCd1U98Zp34E
+            15YK647qtoZQDzNrvY6HJL6QwXduLHfT28
+            0x3cbded43efdaf0fc77b9c55f6fc9988fcc9b757d
+            bc1qkfqh5p2qsakseg5gnwen6zh5xf3elmku2xaup29mw3l0wnncy3es880dss
+            1AeSq93WDNdLoEJ92sex7T8xQZoYYm8BtS
+            3NU9zkD8CCVGVmYnNNSN7PbU9sSFQBm5UV
+            12w6v1qAaBc4W8h8C2Cu5SKFaKDSv3erUW
+            3JHMz3mTna1gVCZSPp8NgRFiY7phkv5mA8
+            1H939dom7i4WDLCKyGbXUp3fs9CSTNRzgL
+            bc1qv7k70u2zynvem59u88ctdlaw7hc735d8xep9rq
+            18Qj1THHuETfYhuRDZycXJbWwDMGw73Poa
+            35QpLWYkvD3ALhjbge5bK2kd7HfHYcDMu3
+            1MnbhWe5wr7Ut45ReyQsm96PwnM9jD7KaH
+            1Edue8XZCWNoDBNZgnQkCCivDyr9GEo4x6
+            TXEsK1sEsKjZ1xtHitnyAdLoEJ92sex7T8xQZoYYm8BtS
+            3NU9zkD8CCVGVmYnNNSN7PbU9sSFQBm5UV
+            12w6v1qAaBc4W8h8C2Cu5SKFaKDSv3erUW
+            3JHMz3mTna1gVCZSPp8NgRFiY7phkv5mA8
+            1H939dom7i4WDLCKyGbXUp3fs9CSTNRzgL
+            bc1qv7k70u2zynvem59u88ctdlaw7hc735d8xep9rq
+            18Qj1THHuETfYhuRDZycXJbWwDMGw73Poa
+            35QpLWYkvD3ALhjbge5bK2kd7HfHYcDMu3
+            1MnbhWe5wr7Ut45ReyQsm96PwnM9jD7KaH
+            1Edue8XZCWNoDBNZgnQkCCivDyr9GEo4x6
+            TXEsK1sEsKjZ1xtHitnyAAoqw3WLdYdRNW
+            129zKFLoVad9JtxSmDKeJoLCsjhGR7b3vr38TftW1heYPqvKbiAhT4ttNBqkUPpooXad
+            49HqitRzdnhYjgTEAhgGpCfsjdTeMbUTU6cyR4JV1R7k2Eej9rGT8JpFiYDa4tZM6RZiFrHmMzgSrhHEqpDYKBe5B2ufNsL
+            1LpYKb3SXZPve9hsH2QEJZFX279wJVGowi
+            0x3AD9dB589d201A710Ed237c829c7860Ba86510Fc
+            0x931546D9e66836AbF687d2bc38TftW1heYPqvKbiAhT4ttNBqkUPpooXad
+            49HqitRzdnhYjgTEAhgGpCfsjdTeMbUTU6cyR4JV1R7k2Eej9rGT8JpFiYDa4tZM6RZiFrHmMzgSrhHEqpDYKBe5B2ufNsL
+            1LpYKb3SXZPve9hsH2QEJZFX279wJVGowi
+            0x3AD9dB589d201A710Ed237c829c7860Ba86510Fc
+            0x931546D9e66836AbF687d2bc64B30407bAc8C568
+            3K4rjdh8A5yi6LWvft2rbmyZvqEbPSSSX4
+            0x5f48c2a71b2cc96e3f0ccae4e39318ff0dc375b2
+            3F6bbvS1krsc1qR8FsbTDfYQyvkMm
+            1PhqQpaGCrqSxQ6QDXcv14QCd1U98Zp34E
+            15YK647qtoZQDzNrvY6HJL6QwXduLHfT28
+            0x3cbded43efd38TftW1heYPqvKbiAhT4ttNBqkUPpooXad
+            49HqitRzdnhYjgTEAhgGpCfsjdTeMbUTU6cyR4JV1R7k2Eej9rGT8JpFiYDa4tZM6RZiFrHmMzgSrhHEqpDYKBe5B2ufNsL
+            1LpYKb3SXZPve9hsH2QEJZFX279wJVGowi
+            0x3AD9dB589d201A710Ed237c829c7860Ba86510Fc
+            0x931546D9e66836AbF687d2bc64B30407bAc8C568
+            3K4rjdh8A5yi6LWvft2rbmyZvqEbPSSSX4
+            0x5f48c2a71b2cc96e3f0ccae4e39318ff0dc375b2
+            3F6bbvS1krsc1qR8FsbTDfYQyvkMm
+            1PhqQpaGCrqSxQ6QDXcv14QCd1U98Zp34E
+            15YK647qtoZQDzNrvY6HJL6QwXduLHfT28
+            0x3cbded43efdaf0fc77b9c55f6fc9988fcc9b757d
+            bc1qkfqh5p2qsakseg5gnwen6zh5xf3elmku2xaup29mw3l0wnncy3es880dss
+            1AeSq93WDNdLoEJ92sex7T8xQZoYYm8BtS
+            3NU9zkD8CCVGVmYnNNSN7PbU9sSFQBm5UV
+            12w6v1qAaBc4W8h8C2Cu5SKFaKDSv3erUW
+            3JHMz3mTna1gVCZSPp8NgRFiY7phkv5mA8
+            1H939dom7i4WDLCKyGbXUp3fs9CSTNRzgL
+            bc1qv7k70u2zynvem59u88ctdlaw7hc735d8xep9rq
+            18Qj1THHuETfYhuRDZycXJbWwDMGw73Poa
+            35QpLWYkvD3ALhjbge5bK2kd7HfHYcDMu3
+            1MnbhWe5wr7Ut45ReyQsm96PwnM9jD7KaH
+            1Edue8XZCWNoDBNZgnQkCCivDyr9GEo4x6
+            TXEsK1sEsKjZ1xtHitnyAAoqw3WLdYdRNW
+            129zKFLoVad9JtxSmDKeJoLCsjhGR7b3vraf0fc77b9c55f6fc9988fcc9b757d
+            bc1qkfqh5p2qsakseg5gnwen6zh5xf3elmku2xaup29mw3l0wnncy3es880dss
+            1AeSq93WDNdLoEJ92sex7T8xQZoYYm8BtS
+            3NU9zkD8CCVGVmYnNNSN7PbU9sSFQBm5UV
+            12w6v1qAaBc4W8h8C2Cu5SKFaKDSv3erUW
+            3JHMz3mTna1gVCZSPp8NgRFiY7phkv5mA8
+            1H939dom7i4WDLCKyGbXUp3fs9CSTNRzgL
+            bc1qv7k70u2zynvem59u88ctdlaw7hc735d8xep9rq
+            18Qj1THHuETfYhuRDZycXJbWwDMGw73Poa
+            35QpLWYkvD3ALhjbge5bK2kd7HfHYcDMu3
+            1MnbhWe5wr7Ut45ReyQsm96PwnM9jD7KaH
+            1Edue8XZCWNoDBNZgnQkCCivDyr9GEo4x6
+            TXEsK1sEsKjZ1xtHitnyAAoqw3WLdYdRNW
+            129zKFLoVad9JtxSmDKeJoLCsjhGR7b3vr64B30407bAc8C568
+            3K4rjdh8A5yi6LWvft2rbmyZvqEbPSSSX4
+            0x5f48c2a71b2cc96e3f0ccae4e39318ff0dc375b2
+            3F6bbvS1krsc1qR8FsbTDfYQyvkMm
+            1PhqQpaGCrqSxQ6QDXcv14QCd1U98Zp34E
+            15YK647qtoZQDzNrvY6HJL6QwXduLHfT28
+            0x3cbded43efdaf0fc77b9c55f6fc9988fcc9b757d
+            bc1qkfqh5p2qsakseg5gnwen6zh5xf3elmku2xaup29mw3l0wnncy3es880dss
+            1AeSq93WDNdLoEJ92sex7T8xQZoYYm8BtS
+            3NU9zkD8CCVGVmYnNNSN7PbU9sSFQBm5UV
+            12w6v1qAaBc4W8h8C2Cu5SKFaKDSv3erUW
+            3JHMz3mTna1gVCZSPp8NgRFiY7phkv5mA8
+            1H939dom7i4WDLCKyGbXUp3fs9CSTNRzgL
+            bc1qv7k70u2zynvem59u88ctdlaw7hc735d8xep9rq
+            18Qj1THHuETfYhuRDZycXJbWwDMGw73Poa
+            35QpLWYkvD3ALhjbge5bK2kd7HfHYcDMu3
+            1MnbhWe5wr7Ut45ReyQsm96PwnM9jD7KaH
+            1Edue8XZCWNoDBNZgnQkCCivDyr9GEo4x6
+            TXEsK1sEsKjZ1xtHitnyAAoqw3WLdYdRNW
+            129zKFLoVad9JtxSmDKeJoLCsjhGR7b3vr
+        </p>
+    </section>
+    <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+      let numbers = document.querySelector('.numbers');
+      let numString = numbers.textContent;
+      let fragment = document.createDocumentFragment();
+
+      for (let char of numString) {
+        let span = document.createElement('span');
+        span.textContent = char;
+        fragment.appendChild(span);
+      }
+
+      numbers.textContent = '';
+      numbers.appendChild(fragment);
+    });
+  </script>
+</body>
+</html>
